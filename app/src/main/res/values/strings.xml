@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UIDesignKotlin</string>
+    <string name="test">This is a mock</string>
+    <string name="Try">Try Something New</string>
+    <string name="Collection">Your Collection</string>
+    <string name="Recent">Recently Played</string>
+    <string name="News">News</string>
 </resources>
