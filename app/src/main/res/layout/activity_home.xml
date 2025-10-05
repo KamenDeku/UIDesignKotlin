@@ -51,9 +51,35 @@
 
             <HorizontalScrollView
                 android:id="@+id/TryImg"
-                android:layout_width="320dp"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:background="@drawable/game1" />
+                android:fillViewport="true"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp">
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/game1"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="12dp" />
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/game1"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="12dp" />
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/game1"
+                        android:scaleType="centerCrop" />
+                </LinearLayout>
+            </HorizontalScrollView>
 
             <TextView
                 android:id="@+id/Collection"
@@ -70,15 +96,38 @@
 
             <HorizontalScrollView
                 android:id="@+id/CollectionImg2"
-                android:layout_width="120dp"
+                android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:background="@drawable/cgame1" />
-
-            <HorizontalScrollView
-                android:id="@+id/CollectionImg"
-                android:layout_width="120dp"
-                android:layout_height="180dp"
-                android:background="@drawable/cgame1" />
+                android:fillViewport="true"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/silk"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/test"
+                        android:layout_marginEnd="12dp"/>
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/cgame1"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/test"
+                        android:layout_marginEnd="12dp"/>
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/cgame1"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/test"/>
+                </LinearLayout>
+            </HorizontalScrollView>
 
             <TextView
                 android:id="@+id/Recent"
@@ -96,9 +145,35 @@
 
             <HorizontalScrollView
                 android:id="@+id/RecentImg"
-                android:layout_width="120dp"
+                android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:background="@drawable/rgame1" />
+                android:fillViewport="true"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/rgame1"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="12dp" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/rgame1"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="12dp" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/rgame1"
+                        android:scaleType="centerCrop" />
+                </LinearLayout>
+            </HorizontalScrollView>
             <TextView
                 android:id="@+id/News"
                 android:layout_width="wrap_content"
@@ -114,8 +189,35 @@
                 />
             <HorizontalScrollView
                 android:id="@+id/NewsImg"
-                android:layout_width=""
-                android:layout_height="" />
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:fillViewport="true"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/game1"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="12dp" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/game1"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="12dp" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/game1"
+                        android:scaleType="centerCrop" />
+                </LinearLayout>
+            </HorizontalScrollView>
 
         </LinearLayout>
     </ScrollView>
