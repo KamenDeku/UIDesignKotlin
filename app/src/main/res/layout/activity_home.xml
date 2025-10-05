@@ -48,27 +48,38 @@
                 app:layout_constraintHorizontal_bias="0.15"
                 android:padding="16dp"
                 />
+
             <HorizontalScrollView
                 android:id="@+id/TryImg"
-                android:layout_width=""
-                android:layout_height="" />
+                android:layout_width="320dp"
+                android:layout_height="120dp"
+                android:background="@drawable/game1" />
+
             <TextView
                 android:id="@+id/Collection"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="16dp"
                 android:text="@string/Collection"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"
-                app:layout_constraintTop_toBottomOf="@+id/menuBtn"
-                app:layout_constraintStart_toStartOf="@+id/Bg"
                 app:layout_constraintEnd_toEndOf="@id/Bg"
                 app:layout_constraintHorizontal_bias="0.15"
-                android:padding="16dp"
-                />
+                app:layout_constraintStart_toStartOf="@+id/Bg"
+                app:layout_constraintTop_toBottomOf="@+id/menuBtn" />
+
+            <HorizontalScrollView
+                android:id="@+id/CollectionImg2"
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:background="@drawable/cgame1" />
+
             <HorizontalScrollView
                 android:id="@+id/CollectionImg"
-                android:layout_width=""
-                android:layout_height="" />
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:background="@drawable/cgame1" />
+
             <TextView
                 android:id="@+id/Recent"
                 android:layout_width="wrap_content"
@@ -82,10 +93,12 @@
                 app:layout_constraintHorizontal_bias="0.15"
                 android:padding="16dp"
                 />
+
             <HorizontalScrollView
                 android:id="@+id/RecentImg"
-                android:layout_width=""
-                android:layout_height="" />
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rgame1" />
             <TextView
                 android:id="@+id/News"
                 android:layout_width="wrap_content"
@@ -103,6 +116,7 @@
                 android:id="@+id/NewsImg"
                 android:layout_width=""
                 android:layout_height="" />
+
         </LinearLayout>
     </ScrollView>
 
