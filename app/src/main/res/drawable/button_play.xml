@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="50dp" /> <!-- Uniform radius for all corners -->
+    <!-- Or for individual corners: -->
+    <!-- <corners
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp" /> -->
+    <solid android:color="#4EBD5B" /> <!-- Example background color -->
+    <!-- Optional: Add a stroke for a border -->
+    <!-- <stroke android:width="2dp" android:color="#000000" /> -->
+</shape>
