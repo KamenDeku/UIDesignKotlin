@@ -12,9 +12,7 @@ class HomeActivity : ComponentActivity() {
 
         val openPlayView = findViewById<ImageView>(R.id.OpenPlayView)
 
-
         openPlayView.setOnClickListener {
-            // Crear un Intent para abrir PlayActivity
             val intent = Intent(this, PlayActivity::class.java)
             startActivity(intent)
         }
