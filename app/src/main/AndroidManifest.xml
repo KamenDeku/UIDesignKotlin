@@ -27,6 +27,10 @@
             android:name=".PlayActivity"
             android:exported="true"
             />
+        <activity
+            android:name=".NewsActivity"
+            android:exported="true"
+            />
     </application>
 
 </manifest>

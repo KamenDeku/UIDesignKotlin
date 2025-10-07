@@ -70,13 +70,13 @@
                     <ImageView
                         android:layout_width="320dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/game1"
+                        android:src="@drawable/game2"
                         android:scaleType="centerCrop"
                         android:layout_marginEnd="12dp" />
                     <ImageView
                         android:layout_width="320dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/game1"
+                        android:src="@drawable/game3"
                         android:scaleType="centerCrop" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -126,7 +126,7 @@
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="180dp"
-                        android:src="@drawable/cgame1"
+                        android:src="@drawable/rgame1"
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/test"/>
                 </LinearLayout>
@@ -161,13 +161,13 @@
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="180dp"
-                        android:src="@drawable/rgame1"
+                        android:src="@drawable/silk"
                         android:scaleType="centerCrop"
                         android:layout_marginEnd="12dp" />
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="180dp"
-                        android:src="@drawable/rgame1"
+                        android:src="@drawable/cgame1"
                         android:scaleType="centerCrop"
                         android:layout_marginEnd="12dp" />
                     <ImageView
@@ -203,21 +203,24 @@
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp">
                     <ImageView
+                        android:id="@+id/OpenNewsView"
                         android:layout_width="120dp"
                         android:layout_height="180dp"
-                        android:src="@drawable/game1"
+                        android:src="@drawable/ngame1"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="12dp"
+                        android:clickable="true"
+                        android:focusable="true"/>
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/ngame2"
                         android:scaleType="centerCrop"
                         android:layout_marginEnd="12dp" />
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="180dp"
-                        android:src="@drawable/game1"
-                        android:scaleType="centerCrop"
-                        android:layout_marginEnd="12dp" />
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="180dp"
-                        android:src="@drawable/game1"
+                        android:src="@drawable/ngame3"
                         android:scaleType="centerCrop" />
                 </LinearLayout>
             </HorizontalScrollView>

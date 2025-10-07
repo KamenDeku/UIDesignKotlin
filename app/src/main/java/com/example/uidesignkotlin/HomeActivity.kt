@@ -16,5 +16,12 @@ class HomeActivity : ComponentActivity() {
             val intent = Intent(this, PlayActivity::class.java)
             startActivity(intent)
         }
+
+        val openNewsView = findViewById<ImageView>(R.id.OpenNewsView)
+
+        openNewsView.setOnClickListener {
+            val intent = Intent(this, NewsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
